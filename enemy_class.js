@@ -1,4 +1,3 @@
-// let ENEMY_POSITION_X = 400;
 let enemies =[];
 function Enemy(position_x,position_y,width,height) {
     // vung duoc xuat hien cua may bay

@@ -81,13 +81,15 @@ function BoardGame() {
     };
     this.guide = function () {
         ctx.beginPath();
-        ctx.font ='40px Arial';
-        ctx.fillStyle = 'red';
-        ctx.fillText('Ấn Enter để bắt đầu chơi',100,250);
+        let image = new Image();
+        image.src = './image/boardGame.png';
+        image.onload = function () {
+            ctx.drawImage(image, 0, 0);
+            ctx.font ='40px Arial';
+            ctx.fillStyle = 'red';
+            ctx.fillText('Ấn Enter để bắt đầu chơi',100,250);
+        };
         ctx.closePath();
     }
 }
-
-// let boardGame  = new BoardGame();
-// boardGame.init();
 

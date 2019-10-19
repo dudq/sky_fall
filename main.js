@@ -2,7 +2,6 @@ let boardGame = new BoardGame();
 let plane = new AirPlane(AIRPLANE_POSITION_X, AIRPLANE_POSITION_Y, AIRPLANE_WIDTH, AIRPLANE_HEIGHT);
 let isGameOver = false;
 boardGame.control();
-boardGame.drawBoard();
 boardGame.guide();
 function start() {
     if (!isGameOver) {

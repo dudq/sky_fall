@@ -1,6 +1,3 @@
-// let BULLET_POSITION_X = 400;
-// let BULLET_POSITION_Y = 200;
-
 function Bullet(position_x,position_y,width,height) {
     this.position_x = position_x ;
     this.position_y = position_y;

@@ -64,5 +64,3 @@ function AirPlane(position_x,position_y,width,height){
 
     };
 }
-// let plane = new AirPlane();
-// plane.show();
