@@ -80,11 +80,11 @@ function BoardGame() {
         ctx.closePath();
     };
     this.guide = function () {
-        // ctx.beginPath();
+        ctx.beginPath();
         ctx.font ='40px Arial';
-        ctx.fillStyle = 'White';
+        ctx.fillStyle = 'red';
         ctx.fillText('Ấn Enter để bắt đầu chơi',100,250);
-        // ctx.closePath();
+        ctx.closePath();
     }
 }
 

@@ -4,7 +4,6 @@ let isGameOver = false;
 boardGame.control();
 boardGame.drawBoard();
 boardGame.guide();
-
 function start() {
     if (!isGameOver) {
         boardGame.drawBoard();
