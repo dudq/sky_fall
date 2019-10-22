@@ -10,8 +10,8 @@ function AirPlane(position_x,position_y,width,height){
     this.isMoveLeft = false;
     this.isMoveRight = false;
     this.bullets = [];
-    this.reloadTime = 5;
-    this.reload =5;
+    this.reloadTime = 4;
+    this.reload =4;
     this.image = './image/plane1.png';
     this.draw = function() {
         let position_x = this.position_x;

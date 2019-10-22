@@ -87,7 +87,8 @@ function BoardGame() {
             ctx.drawImage(image, 0, 0);
             ctx.font ='40px Arial';
             ctx.fillStyle = 'red';
-            ctx.fillText('Ấn Enter để bắt đầu chơi',100,250);
+            ctx.fillText('Press ENTER to play',100,250);
+            ctx.fillText('Hold SPACE to fire',100,300);
         };
         ctx.closePath();
     }
